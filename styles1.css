@@ -1,0 +1,62 @@
+h2 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+}
+
+.info {
+    border: 1px solid #f0f0f0;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+#name, #email {
+    width: 100%;
+}
+
+header, h1, footer, p {
+    text-align: center;
+}
+
+ul li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid #ccc;
+}
+
+a::before {
+    content: '▲ ';
+}
+
+.highlight::first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+.info::after {
+    content: '';
+    background-image: url(background.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+input:focus {
+    background-color: blue;
+}
+
+p:last-of-type {
+    font-style: italic;
+}
